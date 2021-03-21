@@ -1,0 +1,69 @@
+._container-top{
+ width: 100%;
+ background-color:#323d53;
+ height: 80px;
+}
+
+.layout{
+ color: burlywood;
+}
+
+.row:first-child{
+ color:white;
+}
+
+.row:nth-child(2){
+ color: white;
+}
+
+
+._bg-color{
+ background-color: #059c93;
+}
+
+._container-bottom{
+ min- height: 300px;
+}
+
+
+._padding{
+ padding: 80px 0;
+}
+
+._jumbotron{
+ width:80%;
+ max-width: 900px;
+ background-color: firebrick;
+ min-height: 300px;
+ margin: 0 auto;
+}
+
+.pictures{
+ width: 100%;
+ height: 300px;
+ background-color: firebrick;
+ margin-bottom: 5px;
+}
+
+
+._w60{
+ width: 60%;
+ margin: 0 auto;
+}
+
+.downbutton{
+ background-color: transparent;
+}
+
+.black div{
+ color: black;
+}
+
+
+._footer-top{
+ background-color: #3f5170;
+}
+
+._footer-bottom{
+ background-color: #323d53;
+}
