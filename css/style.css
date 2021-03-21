@@ -22,7 +22,7 @@
 }
 
 ._container-bottom{
- min- height: 300px;
+ min- height: 500px;
 }
 
 
@@ -33,7 +33,7 @@
 ._jumbotron{
  width:80%;
  max-width: 900px;
- background-color: firebrick;
+ 
  min-height: 300px;
  margin: 0 auto;
 }
@@ -41,7 +41,7 @@
 .pictures{
  width: 100%;
  height: 300px;
- background-color: firebrick;
+ 
  margin-bottom: 5px;
 }
 
@@ -66,4 +66,68 @@
 
 ._footer-bottom{
  background-color: #323d53;
+}
+
+._list{
+   display: inline;
+}
+
+.navrow{
+   line-height: 80px;
+}
+
+.logoname{
+   font-size:20px;
+   
+}
+
+._titles > li, .logoname, ._start{
+   font-weight: bold;
+}
+
+._titles::after{
+   clear: both;
+   content: "";
+   display: table;
+}
+
+._titles > li{
+   float: left;
+   padding-right: 30px;
+   list-style-type: none;
+   
+ 
+}
+
+._titles > li:hover{
+color: lightgreen;
+}
+
+.jumboavatar{
+   width: 20%;
+   height: 20%;
+   display: block;
+   margin: 0 auto;
+   min-height: 20%; /* Non funziona, provato per mantenere l'immagine grande che con i breakpoint diventa molto piccola */
+}
+
+._start{
+   text-align: center;
+   font-weight: bold;
+}
+
+.whitecolor{
+   color: white;
+}
+
+.subtitles{
+   text-align: center;
+   font-size: 12px;
+}
+
+._star{
+  width: 100%;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 20px;
 }
