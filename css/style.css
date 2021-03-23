@@ -44,6 +44,7 @@
  margin-bottom: 5px;
  background-color: firebrick;
  border-radius: 10px;
+
  
 }
 
@@ -151,4 +152,23 @@ color: lightgreen;
 ._down{
    margin-right: 5px;
 
+}
+
+.spacing{
+   margin-bottom: 10px;
+}
+
+.logos > .fab{
+   margin-right: 15px;
+   border: 1px solid white;
+   border-radius: 100%;
+   padding: 10px;
+}
+
+.links{
+   color:limegreen;
+}
+
+.bolding{
+   font-weight: bold;
 }
